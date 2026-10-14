@@ -3,8 +3,11 @@
 Solutions to all 11 labs of the *Object-Oriented Programming in Java - University Lab Manual*.
 
 Name               :Tatenda Ruth Mahwte
+
 Reg number         : H250740W
+
 Course             : OOP
+
 Course Code        : ICS2106
 
 ## Contents
