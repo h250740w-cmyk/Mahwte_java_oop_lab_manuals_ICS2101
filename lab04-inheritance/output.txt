@@ -1,0 +1,27 @@
+$ java PersonDemo
+Name: Grace, Age: 45
+Name: Peter, Age: 20
+  course: Web Development
+Name: Mr Kimani, Age: 38
+  subject: Java
+Student is a Person? true
+Teacher is a Person? true
+
+$ java ElectricCar
+Creating an ElectricCar...
+1. Vehicle constructor: Nissan
+2. Car constructor: 5 doors
+3. ElectricCar constructor: 40 kWh battery
+Done: Nissan 5 doors, 40 kWh
+
+$ java Dog
+Dog created: Rex
+
+$ java BadStack
+Stack after illegal operations: [99, 2, 3]
+
+$ java GoodStack
+peek = 3
+pop  = 3
+pop  = 2
+pop  = 1

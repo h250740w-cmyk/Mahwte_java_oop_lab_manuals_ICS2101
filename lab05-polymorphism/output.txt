@@ -1,0 +1,32 @@
+$ java PrintOverload
+int: 42
+double: 3.14
+String: hello
+int[]: [1, 2, 3]
+int: 65
+double: 10.0
+
+$ java AnimalDemo
+Cat says Meow
+Cow says Moo
+Duck says Quack
+Animal says ...
+
+$ java PayrollDemo
+Kudzai   Employee    2000.00
+Nyasha   Manager     4300.00
+Tatenda  Developer   3250.00
+Rudo     Intern       800.00
+TOTAL PAYROLL: 10350.00
+
+$ java FieldVsMethod
+Child method
+Parent field
+Child field
+
+$ java PaymentDemo
+[V1] Charging card ending 1234: 120.50
+[V1] Sending mobile money request to +254700111222: 45.00
+---
+Charging card ending 1234: 120.50
+Sending mobile money request to +254700111222: 45.00

@@ -1,0 +1,24 @@
+$ java Student
+Neema marks=74 grade=A
+After update: grade=C
+Rejected: Marks must be between 0 and 100, got 120
+Marks still 55
+
+$ java BankAccount
+OPEN 500.0
+DEPOSIT 250.0
+WITHDRAW 100.0
+FAILED WITHDRAW 5000.0
+Balance: 650.0
+History cannot be modified from outside
+History size is still 4
+
+$ java ImmutablePerson
+Asha (20), hobbies=[football, chess]
+Asha (20), hobbies=[football, chess]
+Asha (21), hobbies=[football, chess]
+
+$ java Temperature
+298.15 K = 25.0 C = 77.0 F
+-40.0 C = -40.0 F (the scales meet at -40)
+Rejected: Below absolute zero: -26.850000000000023 K

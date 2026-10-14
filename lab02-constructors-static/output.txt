@@ -1,0 +1,28 @@
+$ java Circle
+c1 area = 19.63
+c2 area = 3.14 (default radius 1.0)
+c3 area = 50.27
+Circles created: 3
+
+$ java Employee
+Employee#1000 Wanjiru, Finance, 4200.0
+Employee#1001 Otieno, IT, 0.0
+Employee#1002 Zawadi, Unassigned, 0.0
+Employee#1003 Wanjiru, Finance, 4200.0   <- copy of e1, different id
+
+$ java InitBlocks
+static block 1
+static block 2
+main starts
+instance block 1
+instance block 2
+constructor
+--- second object ---
+instance block 1
+instance block 2
+constructor
+
+$ java Temperature
+100.0 C / 212.0 F
+0.0 C / 32.0 F
+37.0 C / 98.6 F

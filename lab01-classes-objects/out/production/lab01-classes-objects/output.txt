@@ -1,0 +1,24 @@
+$ java Car
+Brand: Toyota, Year: 2018, Mileage: 85000.0 km
+  Antique? false
+Brand: Mazda, Year: 2005, Mileage: 190500.5 km
+  Antique? false
+Brand: Ford, Year: 1975, Mileage: 240000.0 km
+  Antique? true
+
+$ java Rectangle
+2.0 x 3.0  area=6.0  perimeter=10.0
+5.0 x 4.0  area=20.0  perimeter=18.0
+10.0 x 1.0  area=10.0  perimeter=22.0
+6.0 x 6.0  area=36.0  perimeter=24.0
+3.5 x 2.0  area=7.0  perimeter=11.0
+Largest rectangle: 6.0 x 6.0 (area 36.0)
+
+$ java RectangleAlias
+r1.width = 20.0
+r1 == r2 ? true
+
+$ java Person
+Amina lives in Nairobi
+Brian has no address (null check works)
+NullPointerException caught: address is null, so .city cannot be read
