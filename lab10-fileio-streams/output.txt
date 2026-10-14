@@ -1,0 +1,31 @@
+$ java SaveAndRead (input: first line | second line | third line | fourth line | fifth line)
+Line 1: Line 2: Line 3: Line 4: Line 5: 
+Saved to notes.txt
+Reading it back:
+  > first line
+  > second line
+  > third line
+  > fourth line
+  > fifth line
+
+$ java RemoveEvens
+Before: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+After : [1, 3, 5, 7, 9]
+
+$ java FileStats
+(no file given - using generated sample.txt)
+Lines     : 4
+Words     : 9
+Characters: 55 (includes newline characters)
+
+$ java AboveAverage
+Class average: 69.83
+Above average:
+  Amina
+  Mary
+  Zawadi
+
+$ java GroupLearners
+Wrote report-A.txt (3 learners)
+Wrote report-B.txt (2 learners)
+Wrote report-C.txt (2 learners)

@@ -1,0 +1,37 @@
+$ java DivideNumbers (input: 20 | 4)
+Enter first integer: Enter second integer: 20 / 4 = 5
+Program finished.
+
+$ java DivideNumbers (input: 20 | 0)
+Enter first integer: Enter second integer: Error: cannot divide by zero
+Program finished.
+
+$ java DivideNumbers (input: 20 | abc)
+Enter first integer: Enter second integer: Error: that was not a whole number (For input string: "abc")
+Program finished.
+
+$ java ArrayAccess
+data[1] = 20
+Index 5 is invalid for length 3
+data[5] = -1
+Index -1 is invalid for length 3
+data[-1] = -1
+
+$ java AgeValidator
+Age 25 is valid
+Age 0 is valid
+Age 120 is valid
+Rejected: Invalid age: -5 (must be 0 to 120)
+Rejected: Invalid age: 200 (must be 0 to 120)
+
+$ java BankDemo
+Withdrew 100, balance 200.0
+Failed: Balance 200.00 is less than requested 500.00
+You are short by 300.00
+Final balance 200.0
+
+$ java FinallyDemo
+in try
+in finally
+result = 1
+trap result = 2

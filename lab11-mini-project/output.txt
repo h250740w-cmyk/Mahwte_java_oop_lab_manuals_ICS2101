@@ -1,0 +1,98 @@
+$ java LibraryTest
+PASS  book loan period is 14 days
+PASS  dvd loan period is 7 days
+PASS  borrowed item is unavailable
+PASS  member has 1 loan
+PASS  ItemNotAvailableException thrown
+PASS  MemberLimitExceededException thrown
+PASS  failed borrow left DVD available
+PASS  unknown member rejected
+PASS  returned item available again
+PASS  member back to 2 loans
+PASS  nothing overdue today
+PASS  2 books overdue in 20 days
+PASS  search 'java' finds 2
+PASS  search results sorted by title
+PASS  items reloaded
+PASS  members reloaded
+PASS  loan reloaded
+PASS  loan date preserved
+PASS  member loans rebuilt
+
+All 19 checks passed.
+
+$ java Main  (scripted session: add book, add dvd, register member, borrow, borrow again (fails), list, search, overdue, exit)
+Loaded 0 items and 0 members.
+
+===== LIBRARY MENU =====
+1) Add item         5) List overdue
+2) Register member  6) Search by title
+3) Borrow           7) List all items
+4) Return           8) List members
+0) Save and exit
+Choose> Type (B = book, D = dvd)> Item id> Title> Author> Item added.
+
+===== LIBRARY MENU =====
+1) Add item         5) List overdue
+2) Register member  6) Search by title
+3) Borrow           7) List all items
+4) Return           8) List members
+0) Save and exit
+Choose> Type (B = book, D = dvd)> Item id> Title> Running time (minutes)> Item added.
+
+===== LIBRARY MENU =====
+1) Add item         5) List overdue
+2) Register member  6) Search by title
+3) Borrow           7) List all items
+4) Return           8) List members
+0) Save and exit
+Choose> Member id> Name> Member registered.
+
+===== LIBRARY MENU =====
+1) Add item         5) List overdue
+2) Register member  6) Search by title
+3) Borrow           7) List all items
+4) Return           8) List members
+0) Save and exit
+Choose> Member id> Item id> Borrowed. Enjoy!
+
+===== LIBRARY MENU =====
+1) Add item         5) List overdue
+2) Register member  6) Search by title
+3) Borrow           7) List all items
+4) Return           8) List members
+0) Save and exit
+Choose> Member id> Item id> Cannot borrow: 'Clean Code' is currently on loan
+
+===== LIBRARY MENU =====
+1) Add item         5) List overdue
+2) Register member  6) Search by title
+3) Borrow           7) List all items
+4) Return           8) List members
+0) Save and exit
+Choose> [B1] Clean Code                   Book  ON LOAN (due 2026-10-28)  by Robert Martin
+[D1] The Matrix                   Dvd   available  (136 min)
+
+===== LIBRARY MENU =====
+1) Add item         5) List overdue
+2) Register member  6) Search by title
+3) Borrow           7) List all items
+4) Return           8) List members
+0) Save and exit
+Choose> Search text> [B1] Clean Code                   Book  ON LOAN (due 2026-10-28)  by Robert Martin
+
+===== LIBRARY MENU =====
+1) Add item         5) List overdue
+2) Register member  6) Search by title
+3) Borrow           7) List all items
+4) Return           8) List members
+0) Save and exit
+Choose> Nothing is overdue.
+
+===== LIBRARY MENU =====
+1) Add item         5) List overdue
+2) Register member  6) Search by title
+3) Borrow           7) List all items
+4) Return           8) List members
+0) Save and exit
+Choose> Data saved. Goodbye!

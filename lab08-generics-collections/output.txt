@@ -1,0 +1,32 @@
+$ java ListStats
+List    : [14, 7, 92, 3, 55, 28, 61, 9, 40, 76]
+Sum     : 385
+Maximum : 92
+Reversed: [76, 40, 9, 61, 28, 55, 3, 92, 7, 14]
+
+$ java RemoveDuplicates
+Original: [Ann, Bob, Ann, Cara, Bob, Dan, Cara, Ann]
+Unique  : [Ann, Bob, Cara, Dan]
+
+$ java StackDemo
+peek = 30
+popped 30, size now 2
+pop: two
+pop: one
+Caught: Stack is empty
+
+$ java WordFrequency (input: the cat sat on the mat and the dog sat on the log)
+Type a paragraph and press Enter (blank = use sample text):
+the    4
+on     2
+sat    2
+and    1
+cat    1
+dog    1
+log    1
+mat    1
+
+$ java BubbleSort
+[1, 2, 3, 5, 7, 9]
+[apple, banana, mango, pear]
+int[] needs its own method (or boxing to Integer[]): 3 items

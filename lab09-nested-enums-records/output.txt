@@ -1,0 +1,34 @@
+$ java Level
+LOW (ordinal 0): Relax, everything is under control.
+MEDIUM (ordinal 1): Keep an eye on things and plan ahead.
+HIGH (ordinal 2): Act now - this needs immediate attention!
+
+$ java RecordDemo
+Student[name=Imani, age=21]
+a.equals(b) = true
+a == b      = false
+a.equals(c) = false
+same hashCode for equal records: true
+name component = Imani, age component = 21
+
+$ java BookDemo
+add Clean Code        -> true
+add Effective Java    -> true
+add Clean Code (copy) -> false
+Set size = 2 (duplicate rejected)
+[Effective Java [978-0134685991], Clean Code [978-0132350884]]
+
+$ java LinkedList
+alpha
+beta
+gamma
+size = 3
+sum of squares = 55
+
+$ java Coin
+0 cents -> {}  (0 coins)
+1 cents -> {PENNY=1}  (1 coins)
+30 cents -> {NICKEL=1, QUARTER=1}  (2 coins)
+41 cents -> {PENNY=1, NICKEL=1, DIME=1, QUARTER=1}  (4 coins)
+99 cents -> {PENNY=4, DIME=2, QUARTER=3}  (9 coins)
+100 cents -> {QUARTER=4}  (4 coins)
