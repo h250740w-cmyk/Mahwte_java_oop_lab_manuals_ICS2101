@@ -2,9 +2,10 @@
 
 Solutions to all 11 labs of the *Object-Oriented Programming in Java - University Lab Manual*.
 
-- **Name:** _your name_
-- **Reg. no.:** _your registration number_
-- **Course / Unit:** _course code_
+Name               :Tatenda Ruth Mahwte
+Reg number         : H250740W
+Course             : OOP
+Course Code        : ICS2106
 
 ## Contents
 
