@@ -8,7 +8,7 @@ Reg number         : H250740W
 
 Course             : OOP
 
-Course Code        : ICS2106
+Course Code        : ICS2101
 
 ## Contents
 
